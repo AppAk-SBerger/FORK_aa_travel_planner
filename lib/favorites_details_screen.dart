@@ -1,4 +1,4 @@
-import 'elevated_button_remove_from_favorites.dart';
+import 'remove_from_favorites_button.dart';
 import 'package:aa_travel_planner/favorites_repository.dart';
 import 'package:aa_travel_planner/main.dart';
 import 'package:flutter/material.dart';
@@ -68,7 +68,7 @@ class FavoritesDetailsScreen extends StatelessWidget {
                 style: TextStyle(fontSize: 16, height: 1.5, color: Colors.grey[700]),
               ),
               const SizedBox(height: 24),
-              elevated_button_remove_from_favorites(
+              RemoveFromFavoritesButton(
                   favoritesRepository: favoritesRepository, destination: destination),
             ],
           ),

@@ -2,8 +2,8 @@ import 'package:aa_travel_planner/favorites_repository.dart';
 import 'package:aa_travel_planner/main.dart';
 import 'package:flutter/material.dart';
 
-class elevated_button_remove_from_favorites extends StatelessWidget {
-  const elevated_button_remove_from_favorites({
+class RemoveFromFavoritesButton extends StatelessWidget {
+  const RemoveFromFavoritesButton({
     super.key,
     required this.favoritesRepository,
     required this.destination,
