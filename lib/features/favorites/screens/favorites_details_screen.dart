@@ -1,5 +1,5 @@
-import 'remove_from_favorites_button.dart';
-import 'package:aa_travel_planner/favorites_repository.dart';
+import '../widgets/remove_from_favorites_button.dart';
+import 'package:aa_travel_planner/features/favorites/repositories/favorites_repository.dart';
 import 'package:aa_travel_planner/main.dart';
 import 'package:flutter/material.dart';
 
